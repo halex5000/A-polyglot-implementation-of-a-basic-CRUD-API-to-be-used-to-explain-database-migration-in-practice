@@ -1,0 +1,30 @@
+{
+  "name": "basic-crud-api-polyglot",
+  "version": "1.0.0",
+  "description": "Anyone who knows me knows I love a good burger, so of course, my API is burger inspired.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"it is all good\"",
+    "prepare": "husky install",
+    "start": "ts-node-dev --respawn --pretty --transpile-only src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halex5000/A-polyglot-implementation-of-a-basic-CRUD-API-to-be-used-to-explain-database-migration-in-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halex5000/A-polyglot-implementation-of-a-basic-CRUD-API-to-be-used-to-explain-database-migration-in-practice/issues"
+  },
+  "homepage": "https://github.com/halex5000/A-polyglot-implementation-of-a-basic-CRUD-API-to-be-used-to-explain-database-migration-in-practice#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "dynalite": "^3.2.2",
+    "pg-mem": "^2.6.4",
+    "ts-node-dev": "^2.0.0"
+  }
+}

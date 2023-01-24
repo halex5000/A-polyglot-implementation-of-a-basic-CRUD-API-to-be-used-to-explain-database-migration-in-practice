@@ -1,0 +1,18 @@
+databaseChangeLog:
+- changeLogId: e04ebb13-3fc1-4faa-8a9e-9296990b0e61
+- changeSet:
+      id:  1
+      author:  halex9000
+      labels: initial database setup
+      comment: Setting up the initial tables in the database
+      changes:
+       - createTable:
+            tableName:  orders
+            columns:
+              - column:
+                  name:  id
+                  type:  text
+                  constraints:
+                    primaryKey:  true
+                    nullable:  false
+              - column
